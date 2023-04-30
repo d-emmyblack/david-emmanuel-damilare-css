@@ -1,0 +1,131 @@
+
+body{
+    margin: 0%;
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.top{
+    background-color:orange;
+    padding: 30px;
+}
+.img{
+    display: inline-block;
+    float: left; 
+    border: 7px solid white;
+}
+img{ height: 150px;}
+.myname{
+    color:white;
+    font-size: 50px;
+}
+.nav-1{
+    color: orange;
+}
+a{text-decoration: none; font-size: 25px;}
+ul{list-style: none;}
+#h{color: orangered; 
+    padding: 10px; font-weight: bolder }
+#A{ color:white; 
+    padding: 10px; font-weight: bolder}
+#s{ color:white; 
+    padding: 10px; font-weight: bolder}
+.about{
+    background-image: url('tech1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 30px;
+}
+.text1{
+    padding: 30px 200px;
+    
+}
+.skill{
+    line-height: 30px;
+    background-color: orange;
+    padding: 20px;
+}
+.contact{
+   
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+.contact-field{
+    padding: 20px;
+}
+input{ 
+    width: 100%;
+    padding: 15px 20px;
+    border: 0.5px solid orange;
+}
+.contact-details{
+    text-align: left;
+}
+.news{
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+}
+#email2{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 0;
+    border: 2px solid orange
+}
+.newsclass{
+    border: 2px;
+}
+
+
+#foot{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orange;
+}
+.btn{
+    display: block;
+    padding: 12px 20px;
+    float: left;
+    margin-top: 10px;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 12px;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+.btn-sub{
+    padding: 12px 20px;
+    margin-top: 5px;
+    border: 4px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 12px;
+}
+.btn-sub:hover{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+.con{
+    padding-right: 10px;
+    color: blue;
+}
+.ab{
+    padding-right: 10px;
+    color: blue
+}
+.hom{
+    padding-right: 10px;
+    color: blue;
+}
