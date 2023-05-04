@@ -4,6 +4,12 @@ body{
     background-color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-image: url('tech1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    display: inline-block;
+    
 }
 
 .top{
@@ -25,16 +31,15 @@ img{ height: 150px;}
 }
 a{text-decoration: none; font-size: 25px;}
 ul{list-style: none;}
-#h{color: orangered; 
+#h{color: white; 
     padding: 10px; font-weight: bolder }
 #A{ color:white; 
     padding: 10px; font-weight: bolder}
 #s{ color:white; 
     padding: 10px; font-weight: bolder}
 .about{
-    background-image: url('tech1.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+   
+    
     line-height: 30px;
 }
 .text1{
@@ -42,15 +47,19 @@ ul{list-style: none;}
     
 }
 .skill{
+    margin: 200px;
     line-height: 30px;
     background-color: orange;
     padding: 20px;
+}
+#ski{
+    font-size: 20px;
 }
 .contact{
    
     margin: auto;
     width: 60%;
-    padding: 10px;
+    padding: 100px;
     text-align: center;
 }
 .contact-field{
@@ -81,7 +90,7 @@ input{
 
 
 #foot{
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     background-color: orange;
 }
@@ -123,9 +132,69 @@ input{
 }
 .ab{
     padding-right: 10px;
-    color: blue
+    color: blue;
 }
 .hom{
     padding-right: 10px;
     color: blue;
 }
+.pme{
+    
+    margin: auto;
+    text-align: left;
+    border: 2px solid orange;
+    border-radius: 20px;
+    font-size: 20px;
+    float: left;
+
+}
+.pme1{
+    text-align: left;
+    border: 2px solid orange;
+    border-radius: 20px;
+    font-size: 20px;
+   
+}
+.p1{
+    padding: 30px;
+}
+
+.icon-down{
+    padding: 50px;
+    width: 100px;
+    
+}
+
+.icon-down:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+h2{
+    text-align: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .ga1{
+    margin: auto;
+    width: 80%;
+    padding: 40px;
+  }
